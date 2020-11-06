@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/telekram/static/css/main.7006219d.chunk.css",
+    "main.js": "/telekram/static/js/main.27e76c87.chunk.js",
+    "main.js.map": "/telekram/static/js/main.27e76c87.chunk.js.map",
+    "runtime-main.js": "/telekram/static/js/runtime-main.1a8f0c2b.js",
+    "runtime-main.js.map": "/telekram/static/js/runtime-main.1a8f0c2b.js.map",
+    "static/js/2.408afa34.chunk.js": "/telekram/static/js/2.408afa34.chunk.js",
+    "static/js/2.408afa34.chunk.js.map": "/telekram/static/js/2.408afa34.chunk.js.map",
+    "static/js/3.960b18b6.chunk.js": "/telekram/static/js/3.960b18b6.chunk.js",
+    "static/js/3.960b18b6.chunk.js.map": "/telekram/static/js/3.960b18b6.chunk.js.map",
+    "index.html": "/telekram/index.html",
+    "static/css/main.7006219d.chunk.css.map": "/telekram/static/css/main.7006219d.chunk.css.map",
+    "static/js/2.408afa34.chunk.js.LICENSE.txt": "/telekram/static/js/2.408afa34.chunk.js.LICENSE.txt",
+    "static/media/icons.css": "/telekram/static/media/icons.ebda8012.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a8f0c2b.js",
+    "static/js/2.408afa34.chunk.js",
+    "static/css/main.7006219d.chunk.css",
+    "static/js/main.27e76c87.chunk.js"
+  ]
+}
