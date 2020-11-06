@@ -1,9 +1,9 @@
-import React from "react";
-import { useLocation, Link } from "react-router-dom";
-import styled from "styled-components";
-import Avatar from "../../components/Avatar";
-import { getQueryStringParams } from "../../utils/url";
-import data from "../contacts/data/data";
+import React from 'react';
+import { useLocation, Link } from 'react-router-dom';
+import styled from 'styled-components';
+import Avatar from '../../components/Avatar';
+import { getQueryStringParams } from '../../utils/url';
+import data from '../contacts/data/data';
 
 const Header = styled.div`
   border-bottom: 1px solid #eee;

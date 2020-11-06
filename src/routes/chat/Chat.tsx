@@ -1,9 +1,7 @@
-import React from "react";
-import { useLocation } from "react-router-dom";
-import styled from "styled-components";
-import { getQueryStringParams } from "../../utils/url";
-import Messages from "./components/Messages";
-import Form from "./components/Form";
+import React, { useState, useRef } from 'react';
+import styled from 'styled-components';
+import Messages from './components/Messages';
+import Form from './components/Form';
 
 const Wrapper = styled.div`
   display: flex;
@@ -12,13 +10,18 @@ const Wrapper = styled.div`
 `;
 
 function Chat() {
-  let location = useLocation();
-  let queries = getQueryStringParams(location.search);
+  const [messages, setMessages] = useState([] as any);
+  const messagesRef = useRef(messages);
+  messagesRef.current = messages;
+
+  const send = (message: { text: string; isMe: boolean }) => {
+    setMessages([...messagesRef.current, message]);
+  };
 
   return (
     <Wrapper>
-      <Messages />
-      <Form />
+      <Messages messages={messages} />
+      <Form send={send} />
     </Wrapper>
   );
 }

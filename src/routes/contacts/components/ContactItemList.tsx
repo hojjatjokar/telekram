@@ -1,7 +1,7 @@
-import React from "react";
-import styled from "styled-components";
-import { Link } from "react-router-dom";
-import Avatar from "../../../components/Avatar";
+import React from 'react';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import Avatar from '../../../components/Avatar';
 
 const Wrapper = styled(Link)`
   border-bottom: 1px solid #eee;

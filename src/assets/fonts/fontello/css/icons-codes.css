@@ -1,12 +1,15 @@
 .icon-menu:before {
-  content: "\e806";
+  content: '\e806';
 } /* '' */
 .icon-telegram:before {
-  content: "\e84f";
+  content: '\e84f';
 } /* '' */
 .icon-search:before {
-  content: "\e86b";
+  content: '\e86b';
 } /* '' */
 .icon-angle-left:before {
-  content: "\e878";
+  content: '\e878';
 } /* '' */
+.icon-send:before {
+  content: '\e8b3';
+} /* '' */

@@ -55,6 +55,18 @@
       "search": ["angle-left"]
     },
     {
+      "uid": "262790c2bd9399a624c95a9a67b7eb18",
+      "css": "send",
+      "code": 59571,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M83.3 875L958.3 500 83.3 125V416.7L708.3 500 83.3 583.3V875Z",
+        "width": 1000
+      },
+      "search": ["send"]
+    },
+    {
       "uid": "138f9128ee47dc98a6261d862bb1849d",
       "css": "phone",
       "code": 59392,

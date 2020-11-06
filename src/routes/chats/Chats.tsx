@@ -1,6 +1,6 @@
-import React from "react";
-import ChatListItem from "./components/ChatListItem";
-import data, { ChatItemType } from "./data/data";
+import React from 'react';
+import ChatListItem from './components/ChatListItem';
+import data, { ChatItemType } from './data/data';
 
 function Chats() {
   return (
