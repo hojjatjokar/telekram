@@ -51,7 +51,7 @@ function Header() {
 
   return (
     <Nav>
-      {location.pathname === '/chats' ? (
+      {location.pathname === '/chats' || location.pathname === '/' ? (
         <Button>
           <Icon name="telegram" size={24} />
         </Button>
@@ -62,20 +62,22 @@ function Header() {
       )}
 
       <Title>
-        {location.pathname === '/chats'
+        {location.pathname === '/chats' || location.pathname === '/'
           ? 'TeleKram'
           : location.pathname.substring(1)}{' '}
       </Title>
 
-      {location.pathname === '/chats' ? (
+      {location.pathname === '/chats' || location.pathname === '/' ? (
         <ButtonLink to="/contacts">Contacts</ButtonLink>
       ) : null}
       {location.pathname === '/chat' ? (
-        <ButtonLink to="/contact?p=1">
+        <ButtonLink to={`/contact?p=${chatee.id}`}>
           <Avatar src={chatee.avatar} alt={chatee.name} size="small" />
         </ButtonLink>
       ) : null}
-      {location.pathname !== '/chat' && location.pathname !== '/chats' ? (
+      {location.pathname !== '/chat' &&
+      location.pathname !== '/chats' &&
+      location.pathname !== '/' ? (
         <div></div>
       ) : null}
     </Nav>
