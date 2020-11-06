@@ -4,7 +4,7 @@ import data, { ChatItemType } from "./data/data";
 
 function Chats() {
   return (
-    <div>
+    <>
       {data.map((item: ChatItemType) => (
         <ChatListItem
           name={item.name}
@@ -15,7 +15,7 @@ function Chats() {
           id={item.id}
         />
       ))}
-    </div>
+    </>
   );
 }
 

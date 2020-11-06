@@ -5,7 +5,7 @@ import Chat from "./routes/chat/Chat";
 import Contacts from "./routes/contacts/Contacts";
 import ContactInfo from "./routes/contactInfo/ContactInfo";
 import Profile from "./routes/profile/Profile";
-import Header from "./app/Header";
+import Header from "./components/Header";
 
 function App() {
   return (
